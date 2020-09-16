@@ -11,6 +11,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>snapshots</id>
+        <url>http://nexus-cicd-demo.apps.cluster-eb99.eb99.example.opentlc.com/repository/maven-snapshots/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>local</id>
         <url>/home/stkousso/.m2/rhpamworkshoprepository</url>
         <source>LOCAL</source>
