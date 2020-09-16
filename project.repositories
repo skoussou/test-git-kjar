@@ -4,8 +4,16 @@
       <include>true</include>
       <metadata>
         <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <url>http://nexus-cicd-demo.apps.cluster-eb99.eb99.example.opentlc.com/repository/maven-all-public/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/home/stkousso/.m2/rhpamworkshoprepository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
