@@ -4,23 +4,47 @@
       <include>true</include>
       <metadata>
         <id>central</id>
-        <url>http://nexus-cicd-demo.apps.cluster-eb99.eb99.example.opentlc.com/repository/maven-all-public/</url>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-ga-repository</id>
+        <url>http://maven.repository.redhat.com/ga</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>snapshots</id>
-        <url>http://nexus-cicd-demo.apps.cluster-eb99.eb99.example.opentlc.com/repository/maven-snapshots/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
+        <id>jboss-ga-repository</id>
+        <url>https://maven.repository.redhat.com/ga</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-earlyaccess-repository</id>
+        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-earlyaccess-repository</id>
+        <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
         <id>local</id>
-        <url>/home/stkousso/.m2/rhpamworkshoprepository</url>
+        <url>/home/stkousso/.m2</url>
         <source>LOCAL</source>
       </metadata>
     </repository>
