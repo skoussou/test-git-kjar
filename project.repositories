@@ -3,16 +3,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-ga-repository</id>
-        <url>http://maven.repository.redhat.com/ga</url>
+        <id>jboss-earlyaccess-repository</id>
+        <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -27,16 +19,32 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-earlyaccess-repository</id>
-        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+        <id>snapshots</id>
+        <url>http://nexus-cicd-demo.apps.cluster-1119.1119.example.opentlc.com/repository/maven-snapshots/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-ga-repository</id>
+        <url>http://maven.repository.redhat.com/ga</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>jboss-earlyaccess-repository</id>
-        <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
+        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
