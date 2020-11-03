@@ -8,7 +8,7 @@
   <packaging>kjar</packaging>
   <name>test-git-kjar</name>
   <description></description>
-  <distributionManagement>
+  <!--distributionManagement>
     <repository>
       <id>releases</id>
       <url>http://nexus-cicd-demo.apps.cluster-08a2.08a2.example.opentlc.com/repository/maven-releases/</url>
@@ -17,7 +17,7 @@
       <id>snapshots</id>
       <url>http://nexus-cicd-demo.apps.cluster-08a2.08a2.example.opentlc.com/repository/maven-snapshots/</url>
     </snapshotRepository>
-  </distributionManagement>
+  </distributionManagement-->
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
