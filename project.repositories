@@ -48,13 +48,5 @@
         <source>PROJECT</source>
       </metadata>
     </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>snapshots</id>
-        <url>http://nexus-cicd-demo.apps.cluster-08a2.08a2.example.opentlc.com/repository/maven-snapshots/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
-      </metadata>
-    </repository>
   </repositories>
 </project-repositories>
