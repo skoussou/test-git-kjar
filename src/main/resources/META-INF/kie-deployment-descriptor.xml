@@ -9,14 +9,7 @@
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
-    <work-item-handlers>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("java.lang.System.getProperty("HOSTNAME")", "java.lang.System.getProperty("PORT")", "java.lang.System.getProperty("EMAIL_USERNAME")", "java.lang.System.getProperty("EMAIL_PASSWORD")")</identifier>
-            <parameters/>
-            <name>Email</name>
-        </work-item-handler>
-    </work-item-handlers>
+    <work-item-handlers/>
     <environment-entries/>
     <configurations/>
     <required-roles/>
