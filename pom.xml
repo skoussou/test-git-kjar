@@ -55,6 +55,11 @@
       <version>1.4.10</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jbpm.contrib</groupId>
+      <artifactId>exception-throwing-service-task</artifactId>
+      <version>7.33.0.Final-redhat-00003</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
